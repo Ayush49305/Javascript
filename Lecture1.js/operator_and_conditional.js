@@ -1,14 +1,6 @@
-// ==================================================
-// JAVASCRIPT OPERATORS & CONDITIONAL STATEMENTS
-// Revision Code with Comments
-// You can type and run this in your laptop
-// Use Browser Console or Node.js
-// ==================================================
 
 
-// ================= OPERATORS IN JAVASCRIPT =================
-
-// -------- 1. ARITHMETIC OPERATORS --------
+// 1. ARITHMETIC OPERATORS
 let x = 10;
 let y = 3;
 
@@ -119,31 +111,3 @@ let weather = (temp > 20) ? "Hot" : "Cold";
 console.log("Weather:", weather);
 
 
-// ================= PRACTICE SECTION =================
-// Try changing values and see output
-
-let num1 = 15;
-let num2 = 20;
-
-if (num1 > num2) {
-  console.log("num1 is greater");
-} else {
-  console.log("num2 is greater");
-}
-
-
-// ================= SUMMARY =================
-// Operators Types:
-// Arithmetic   -> + - * / %
-// Assignment   -> = += -= *= /=
-// Comparison   -> == === != !== > < >= <=
-// Logical      -> && || !
-
-// Conditional Statements:
-// if
-// if-else
-// else-if ladder
-// switch
-// ternary operator
-
-console.log("✅ Re
