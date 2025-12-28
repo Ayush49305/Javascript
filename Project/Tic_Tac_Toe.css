@@ -36,6 +36,15 @@ body{
      
  } 
 
+ .btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+
  #reset-btn{
     padding:1rem;
     width:18vmin;
@@ -45,3 +54,31 @@ body{
     border-radius: 1rem;
     border:none;
  }
+
+ #new-btn{
+    padding:1rem;
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width:18vmin;
+    height:59.2px;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius: 1rem;
+    border:none;
+ }
+
+ #msg{
+    
+    font-size:5vmin;
+    color:#ffffc7;
+ }
+
+ .msg-container{
+    margin-top: 5vmin;
+ }
+
+.hide{
+    display:none;
+}
